@@ -75,10 +75,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Convenience.h" />
     <ClInclude Include="DataTypes.h" />
+    <ClInclude Include="DXError.h" />
+    <ClInclude Include="DXWindow.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DXError.cpp" />
+    <ClCompile Include="DXWindow.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

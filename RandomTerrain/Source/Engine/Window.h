@@ -36,7 +36,7 @@ protected:
 	bool	m_Resizing	: 1;
 	bool	m_Paused	: 1;
 
-	Window( const WindowParams& params );
+	Window( const WindowParams* const params );
 	void onResize( const u16 width, const u16 height );
 
 };
